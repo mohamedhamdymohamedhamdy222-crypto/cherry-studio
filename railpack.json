@@ -1,0 +1,10 @@
+{
+  "aptPackages": [
+    "libxtst-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "libevdev-dev",
+    "libwayland-dev",
+    "libwayland-client0"
+  ]
+}
