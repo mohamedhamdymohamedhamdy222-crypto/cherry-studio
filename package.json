@@ -12,6 +12,7 @@
   },
   "scripts": {
     "start": "pnpm rebuild:electron && electron-vite preview",
+    "start:railway": "node scripts/railway-health.js",
     "download:binaries": "node scripts/download-binaries.js",
     "rebuild:electron": "electron-rebuild --force --only better-sqlite3",
     "rebuild:node": "pnpm rebuild better-sqlite3",
