@@ -1,5 +1,6 @@
 {
-  "aptPackages": [
+  "$schema": "https://schema.railpack.com",
+  "buildAptPackages": [
     "libxtst-dev",
     "libx11-dev",
     "libxext-dev",
